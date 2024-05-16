@@ -26,7 +26,9 @@ fun main() {
         remotePath = "/home",
         dir = File("pages"),
         index = "my_home_page.html"
-      )
+      ) {
+        enableAutoHeadResponse()
+      }
     }
   }.start(true)
 }
